@@ -1,0 +1,44 @@
+.selectcontainer {
+    display: flex;
+
+    padding: 5px;
+
+}
+
+.containerOne {
+    flex: 3;
+    border: 2px solid black;
+    margin: 5px;
+
+}
+
+.containerTwo {
+
+    flex: 1;
+
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding-left: 2%;
+}
+
+.containerThree {
+    flex: 3;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.containerTwo button {
+    display: block;
+}
+
+.selectData {
+    background-color: aqua;
+}
+
+.containerOne div,
+.containerTwo div {
+    padding: 7px;
+    border-bottom: 1px solid gray;
+}

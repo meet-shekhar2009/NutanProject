@@ -1,0 +1,43 @@
+.input-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.input-box {
+    width: 250px;
+}
+
+.search-box {
+    margin-right: 4px;
+    padding: 3px;
+    border: 1px solid #cecece;
+}
+
+.header {
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border: 0px;
+}
+
+.image-dim {
+    height: 130px;
+    border-radius: 2px;
+    width: 100%;
+}
+
+.menu-cart {
+    margin: 5px;
+    border: 2px solid rgb(218, 215, 215);
+    width: 200px;
+    padding: 5px;
+}
+
+.api-data {
+    display: flex;
+    margin: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

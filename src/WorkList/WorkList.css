@@ -1,0 +1,53 @@
+.taskcontainer {
+    display: flex;
+    border: 3pxpx solid black;
+}
+
+.w-containerOne {
+    flex: 1;
+    border: 1px solid black;
+}
+
+.w-containertwo {
+    flex: 3;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.t-container {
+
+    border: 1px solid #a9a3a3;
+    width: 120px;
+    padding: 3px 5px;
+    border-radius: 20px;
+    background-color: #f2efef;
+    margin: 3px;
+    position: relative;
+}
+
+
+.c-color {
+    background-color: aquamarine;
+}
+
+.chip-container {
+    display: flex;
+}
+
+.cross {
+    position: absolute;
+    right: 5px;
+    display: inline-block;
+    padding: 3px 5px;
+    background: #b2aeae;
+    border-radius: 50%;
+    font-size: 10px;
+    cursor: pointer;
+
+}
+
+.main-container {
+    width: 80%;
+    margin-left: 30px;
+    margin-top: 30px;
+}

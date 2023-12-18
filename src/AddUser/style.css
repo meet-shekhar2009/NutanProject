@@ -1,0 +1,33 @@
+input {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #cecece;
+}
+
+button {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid steelblue;
+    background-color: steelblue;
+    color: white;
+    min-width: 80px;
+    border-radius: 5px;
+
+}
+
+.delete {
+    border: 1px solid gray;
+    background-color: gray;
+}
+
+table {
+    padding: 10px;
+    margin: 10px;
+
+}
+
+table th,
+table td {
+    padding: 5px;
+    border: 1px solid gray;
+}

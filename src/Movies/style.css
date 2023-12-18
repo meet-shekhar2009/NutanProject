@@ -1,0 +1,93 @@
+.movie-items {
+    display: flex;
+    border: 1px solid #0058e2;
+    max-width: 95%;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 10px 5px 5px silver;
+    ;
+}
+
+.movie-info div {
+    margin: 5px;
+    padding: 5px;
+}
+
+.movie-title {
+    font-weight: bold;
+    color: #0058e2;
+}
+
+.txt-search {
+    width: 400px;
+    border-radius: 5px;
+}
+
+.btn-search {
+    background-color: #0058e2;
+    width: 100px;
+}
+
+.nodata {
+    display: flex;
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+}
+
+.container {
+    display: flex;
+}
+
+.container div {
+    flex: 1;
+}
+
+.ngh {
+    border-right: 1px solid black;
+
+}
+
+.discription {
+    border: 1px solid silver;
+    padding: 10px;
+
+
+}
+
+.details-container {
+    display: flex;
+}
+
+.text-heading {
+    color: #0058e2;
+    font-weight: bold;
+    padding: 2px;
+    margin: 2px;
+}
+
+.rating {
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.rating div {
+    padding: 5px;
+}
+
+.movie-poster {
+    width: 80%;
+    height: 400px;
+}
+
+.underline {
+    text-decoration: underline;
+}

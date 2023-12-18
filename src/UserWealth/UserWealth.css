@@ -1,0 +1,46 @@
+.main-container {
+    display: flex;
+    padding: 10px;
+}
+
+.data-container {
+    display: flex;
+
+
+}
+
+.data-container div {
+    margin: 5px;
+    flex: 1;
+}
+
+.wealth-container {
+    align-items: left;
+}
+
+.index-container {
+    flex: 1;
+    border-right: 1px solid silver;
+    margin-top: 50px;
+    color: rgb(1, 31, 31);
+}
+
+.api-data-container {
+    flex: 3;
+}
+
+.class-heading {
+    display: flex;
+}
+
+.username {
+    flex: 1;
+}
+
+.userwealth {
+    flex: 1;
+}
+
+.heading {
+    text-align: center;
+}

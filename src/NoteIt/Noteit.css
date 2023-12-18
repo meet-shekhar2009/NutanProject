@@ -1,0 +1,55 @@
+.noteitmenu {
+    display: flex;
+    border: 2px solid steelblue;
+    background-color: steelblue;
+    margin: 0px;
+    color: white;
+    border-radius: 3px;
+
+}
+
+.noteitmenu div {
+    margin-right: 5px;
+    flex: 1;
+    text-align: center;
+    position: relative;
+
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    color: blue;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 45%;
+    top: 8%
+}
+
+.noteit-table {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.showbar {
+    background-color: white;
+    width: 30%;
+}
+
+.notedcontainer {
+    width: 60%;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 0px;
+
+}
+
+.rowcolor {
+    background-color: aqua;
+}
