@@ -44,7 +44,7 @@ function SearchMeal() {
 
     return (
         <div>
-            <h3 className='header'>Nutan Meal Finder</h3>
+            <h3 className='header'>Shekhar's Meal Finder</h3>
 
             <div className="input-header">
 
