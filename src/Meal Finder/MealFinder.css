@@ -41,3 +41,52 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+.Ing-image {
+    width: 400px;
+    height: 400px;
+}
+
+.Ing-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.str-mealname {
+    font-weight: bolder;
+}
+
+.str-areya {
+    display: flex;
+    width: 400px;
+    height: 60px;
+    border: 2px dotted brown;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.str-instruction {
+    width: 400px;
+    margin-top: 20px;
+}
+
+.str-ingredients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ingredientd-items {
+    background-color: rgb(199, 239, 239);
+    display: inline-block;
+    margin: 2px;
+    padding: 5px 10px;
+    border-radius: 20px;
+
+}

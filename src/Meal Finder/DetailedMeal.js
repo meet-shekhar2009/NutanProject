@@ -5,13 +5,22 @@ function DetailedMeal({ detailedData, setDetailedData }) {
 
     return (
         <div>
-            {detailedData.map((k) => <div>
-                <div>{k.strMeal}</div>
-                <div> <img className='image-dim' src={k.strMealThumb} /> </div>
-                <div>{k.strCategory} </div>
-                <div>{k.strArea}</div>
-                <div>{k.strInstructions}</div>
+
+            {detailedData.map((k) => <div className="Ing-container" >
+                <div style={{ width: '40%' }}>
+                    <div className="str-mealname">{k.strMeal}</div>
+                    <div> <img className='image-dim Ing-image' src={k.strMealThumb} /> </div>
+                    <div className="str-areya"> <div >{k.strCategory} </div>
+                        <div >{k.strArea}</div></div>
+                    <div className="str-instruction">{k.strInstructions}</div>
+                    <div>
+                        <h3>Ingredients</h3>
+                        {Ingredients.map((k) => <span className="ingredientd-items">{k}</span>)}
+                    </div>
+                </div>
             </div>)}
+
+
 
         </div>
     )

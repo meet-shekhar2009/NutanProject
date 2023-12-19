@@ -12,7 +12,7 @@ function SearchMeal() {
         const response = await axios.get(
             'https://www.themealdb.com/api/json/v1/1/search.php?s=' + serachData
         );
-        console.log(response.data.meals);
+
         setMealFinder(response.data.meals);
     };
 
@@ -32,9 +32,15 @@ function SearchMeal() {
         const detailedApiData = await axios.get(
             'https://www.themealdb.com/api/json/v1/1/lookup.php?i=' + id
         );
-        console.log(detailedApiData);
+
         setDetailedData(detailedApiData.data.meals);
     };
+
+    const handelRandomMeal = async () => {
+        const randomData = await axios.get('https://www.themealdb.com/api/json/v1/1/random.php');
+        setMealFinder(randomData.data.meals);
+        setDetailedData([])
+    }
 
     return (
         <div>
@@ -53,7 +59,7 @@ function SearchMeal() {
                 <div className="search-box" onClick={handelSearchMeal}>
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
-                <div className="search-box">
+                <div className="search-box" onClick={handelRandomMeal}>
                     <i class="fa-solid fa-shuffle"></i>
                 </div>
             </div>
