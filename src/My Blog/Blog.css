@@ -1,0 +1,39 @@
+.id-container {
+    height: 30px;
+    width: 30px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 75px;
+    position: absolute;
+    top: -15px;
+    left: 8px;
+}
+
+.blog-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #84bdef;
+
+    margin: 20px;
+    padding: 5px;
+
+    box-shadow: 5px 5px 5px 5px rgb(235, 243, 240);
+
+}
+
+.display-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.filter {
+    width: 100%;
+    padding: 12px;
+}

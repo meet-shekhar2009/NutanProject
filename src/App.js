@@ -16,6 +16,8 @@ import WorkList from "./WorkList";
 import MoviePicker from "./BookMyShow"
 import UserDetails from "./UserWealth"
 import SearchMeal from "./Meal Finder"
+import BlogList from "./My Blog"
+import Quiz from "./Quiz";
 
 function App() {
 
@@ -76,6 +78,12 @@ function App() {
                 <li>
                     <Link to="searchmeal" >SearchMeal</Link>
                 </li>
+                <li>
+                    <Link to="bloglist">BlogList</Link>
+                </li>
+                <li>
+                    <Link to="quiz">Quiz</Link>
+                </li>
             </ul>
             <Routes>
                 <Route path="/" element={<MoviesView />} />
@@ -94,6 +102,8 @@ function App() {
                 <Route path="/moviepicker" element={<MoviePicker />} />
                 <Route path="/userdetails" element={<UserDetails />} />
                 <Route path="/searchmeal" element={<SearchMeal />} />
+                <Route path="/quiz" element={<Quiz />} />
+                <Route path="/bloglist" element={<BlogList />} />
                 <Route path="*" element={<NoPageFound />} />
             </Routes>
         </BrowserRouter>

@@ -1,6 +1,6 @@
 import axios from "axios";
 import UserCriteria from "./userCriteria";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import './UserWealth.css'
 function UserDetails() {
 
