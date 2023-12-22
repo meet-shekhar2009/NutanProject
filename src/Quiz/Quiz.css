@@ -1,0 +1,75 @@
+.quiz-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(49, 160, 234);
+}
+.questionNo {
+  display: flex;
+  background-color: rgb(241, 245, 245);
+  width: 450px;
+  word-wrap: break-word;
+  display: inline-block;
+  margin: 0px 10px 0px 10px;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 5px 5px 5px rgb(247, 235, 235);
+  border: solid rgb(83, 83, 241);
+}
+.Ques-btn {
+  display: flex;
+  color: black;
+  background-color: aliceblue;
+  margin: 10px;
+  padding: 5px 5px 5px 15px;
+  border: 1px;
+  box-shadow: 5px 5px 5px rgb(247, 235, 235);
+  border-radius: 5px;
+}
+.heading {
+  color: rgb(217, 59, 59);
+  width: 400px;
+  background-color: aliceblue;
+  margin: 30px;
+  border-radius: 10px;
+}
+.content-container {
+  background-color: aliceblue;
+  margin-bottom: 50px;
+  border-radius: 24px 0px 0px 24px;
+  padding: 12px 10px 10px 10px;
+  width: 500px;
+}
+.Option-content {
+  width: 480px;
+}
+.Quiz-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.display-itm {
+  display: flex;
+}
+.display-content {
+  display: flex;
+}
+.option-bar {
+  background-color: aliceblue;
+  margin-bottom: 50px;
+  border-radius: 0px 24px 24px 0px;
+  padding: 12px 10px 10px 10px;
+  width: 300px;
+}
+.option-heading {
+  display: flex;
+  margin-top: 80px;
+}
+.need-help {
+  padding: 0px 0px 0px 100px;
+}
