@@ -73,3 +73,18 @@
 .need-help {
   padding: 0px 0px 0px 100px;
 }
+.question-line {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.count {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(174, 242, 242);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}

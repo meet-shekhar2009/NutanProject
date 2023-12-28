@@ -30,6 +30,7 @@ function QuizQuestion() {
               return <div className="Ques-btn">{k.text}</div>;
             })}
           </div>
+          <div> { questionBase[questions].}</div>
           <div onClick={handelNextQuestion}>next</div>
         </div>
         <div className="option-bar">
@@ -37,9 +38,9 @@ function QuizQuestion() {
             <div>Question</div>
             <div className="need-help">Need Help?</div>
           </div>
-          <div>
+          <div className="question-line">
             {questionBase.map((k, i) => (
-              <div className="count">{i}</div>
+              <div className="count">{i + 1}</div>
             ))}
           </div>
         </div>
